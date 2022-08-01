@@ -30,5 +30,9 @@ public class moveplayer : MonoBehaviour
         if ((door.gameObject.tag == "door") && (havekey == "y")){
             SceneManager.LoadScene("winscreen");
         }
+
     }
+
+
 }
+
