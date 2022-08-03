@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level15.unity
     guid: 8c633f61043706648bd94a0c64c66293
   - enabled: 1
-    path: Assets/Scenes/levelAll.unity
+    path: Assets/Scenes/level66.unity
     guid: ea7358ae76520694087c88b46595b9ee
   - enabled: 1
     path: Assets/Scenes/titleScreen.unity

@@ -20,8 +20,9 @@ public class moveplayer : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == "key"){
-            havekey = "y";
+        if (other.tag == "button"){
+            //Destroy(other);
+            //Destroy(other);
 
         }
     }
@@ -32,7 +33,7 @@ public class moveplayer : MonoBehaviour
         }
 
     }
-
-
 }
+
+
 
