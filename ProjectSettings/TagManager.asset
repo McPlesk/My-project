@@ -10,14 +10,15 @@ TagManager:
   - button
   - projectile
   - sidebutton
+  - spikes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - projectile
   - Water
   - UI
-  - 
+  - glass
   - 
   - 
   - 

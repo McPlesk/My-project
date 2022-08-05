@@ -20,9 +20,10 @@ public class moveplayer : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == "button"){
-            //Destroy(other);
-            //Destroy(other);
+        if (other.tag == "spikes"){
+            transform.GetComponent<Renderer>().material.color = Color.red;
+            //Destroy(gameObject);
+
 
         }
     }
