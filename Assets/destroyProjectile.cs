@@ -17,9 +17,16 @@ public class destroyProjectile : MonoBehaviour
     }
     
     void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == "sidebutton"){
+        if (other.tag == "sidebutton"){ 
             Destroy(gameObject);
+        }
+        
+        if (other.tag == "wall"){
+            Destroy(gameObject);
+        }
 
+        if (other.tag == "spikes"){
+            Destroy(gameObject);
         }
 
     }
