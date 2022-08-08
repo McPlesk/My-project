@@ -14,6 +14,9 @@ public class enterLevels : MonoBehaviour
     // Update is called once per frame
     public void OpenScene()
     {
-        SceneManager.LoadScene("levelSelect");
+        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("level2");
+        SceneManager.LoadScene("level3");
+        SceneManager.LoadScene("level4");
     }
 }
