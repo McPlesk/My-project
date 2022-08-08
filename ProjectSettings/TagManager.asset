@@ -20,7 +20,7 @@ TagManager:
   - Water
   - UI
   - glass
-  - 
+  - noCollision
   - 
   - 
   - 
@@ -46,9 +46,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: underEE
+    uniqueID: 1846152303
+    locked: 0
+  - name: underE
+    uniqueID: 3695448395
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: walls
     uniqueID: 3461779163
+    locked: 0
+  - name: projectile
+    uniqueID: 2634607077
     locked: 0
