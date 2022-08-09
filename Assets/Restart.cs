@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class enterLevels : MonoBehaviour
+public class Restart : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,8 +12,10 @@ public class enterLevels : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void OpenScene()
+    void Update()
     {
-        SceneManager.LoadScene("level1");
+        if(Input.GetKey(KeyCode.Space)){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }
