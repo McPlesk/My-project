@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class moveplayer : MonoBehaviour
 {
-    public static string havekey = "n";
 
     // Start is called before the first frame update
     void Start()
@@ -27,14 +26,8 @@ public class moveplayer : MonoBehaviour
 
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D door){
-        if ((door.gameObject.tag == "door") && (havekey == "y")){
-            SceneManager.LoadScene("winscreen");
-        }
-
-    }
 }
+
 
 
 
